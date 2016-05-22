@@ -1037,11 +1037,11 @@ fi
 
 linker="gcc"
 
-library_search ssl	/usr
-library_search crypto	/usr
-library_search resolv   /usr
-library_search socket   /usr
-library_search nsl      /usr
+library_search ssl	/usr/lib/x86_64-linux-gnu
+library_search crypto	/usr/lib/x86_64-linux-gnu
+library_search resolv   /usr/lib/x86_64-linux-gnu
+library_search socket   /usr/lib/x86_64-linux-gnu
+library_search nsl      /usr/lib/x86_64-linux-gnu
 
 # Finally, add in standard system libraries found everywhere
 
