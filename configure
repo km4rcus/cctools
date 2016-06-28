@@ -608,7 +608,7 @@ then
 			irods_ccflags="${irods_ccflags} -I$d"
 		done
 
-		irods_ldflags="${library_search_result}"
+		irods_ldflags="${library_search_result} -lirods_client_plugins"
 
 		# irods 4.x depends on a specific version of boost:
 
